@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import FunctionDupla from './exemplos/FunctionDupla';
+import FunctionSimples from './exemplos/FunctionSimples';
+import buttonp from './button/button';
+import componentetitulo from './ComponenteTitulo/componentetitulo.jsx';
 
 function App() {
   const [logado, setlogado] = useState(false);
@@ -18,11 +22,16 @@ function App() {
   }
 
   return (
-    <div>
+    <div> 
+      
+      <h1> Use effect foi chamado {useEffect} vezes</h1>
+      <FunctionSimples></FunctionSimples>
+      <FunctionDupla></FunctionDupla>
       <h1>O useEffect foi chamado {UseEffectCounter} vezes</h1>
-      {logado ?<p>Logado </p> : <p> Deslogado </p>}
-      <button onClick={logar} ><p>Logar </p> </button>
-      <button onClick={deslogar} ><p>Deslogar </p> </button>
+     <buttonp tarefa= {logar} class='botao red'>fazer login </buttonp>
+     <buttonp tarefa= {deslogar} class= 'botao blue'> deslogar</buttonp>
+     <componentetitulo classe= 'test brown'> clicar </componentetitulo>
+
     </div>
   );
 }
