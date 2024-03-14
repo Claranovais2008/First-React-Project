@@ -1,0 +1,48 @@
+.anime-card{
+    width: 45vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    padding-left: 20px;
+    min-height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-title{
+    font-size:22px;
+    color: aliceblue;
+}
+
+.image-card{
+    width:200px;
+    height: 300px;
+    border: 8px;
+}
+.content div{
+    margin-right: 10px;
+}
+
+.sinopse{
+    color:aliceblue;
+    font-size: 18px;
+}
+.genres{
+    display: flex;
+    justify-content: flex-end;
+}
+.studios{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: 10px;
+
+} 
+.studios div{
+    margin-left: 10px;
+}
+genres div{
+    display:flex;
+}
