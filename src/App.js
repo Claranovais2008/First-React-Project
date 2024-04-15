@@ -1,5 +1,8 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import { AnimeComponent } from './components/AnimeCommponentes/AnimeComponent';
+import { router } from './router';
+
+
 
 
 function App() {
@@ -7,7 +10,7 @@ function App() {
 
   return (
     <div> 
-      <AnimeComponent></AnimeComponent>
+      <RouterProvider router={router}></RouterProvider>
 
     </div>
   );

@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay{
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+}
+.card{
+    background-color: lightblue ;
+    padding:20px ;
+    border-radius:10px ;
+    width: 500px;
+    text-align: center;
+    color:black ;
+    margin: 40px;
+
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+button {
+    background-color: blue ;
+    color: white ;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none ;
+    cursor: pointer ;
+
+}
+button hover {
+ background-color: rgb(80, 141, 255);
+}
+button a {
+ text-decoration: none;
+ color: white;
+}

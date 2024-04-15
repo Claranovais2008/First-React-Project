@@ -3,15 +3,15 @@
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
-    padding-left: 20px;
+    padding-top: 20px;
     min-height: 400px;
-    background-color: aqua;
+    background-color: rgb(102, 182, 243);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 .card-title{
-    font-size:22px;
+    font-size:30px;
     color: aliceblue;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .sinopse{
-    color:aliceblue;
+    color: aliceblue;
     font-size: 18px;
 }
 .genres{
